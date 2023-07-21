@@ -1,0 +1,433 @@
+.header {
+    background-color: #bbad97;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 3px;
+    padding: 40px;
+    font-size: 40px;
+    background-image: url('pictures/bgg.jpg');
+    background-color: #cccccc;
+
+}
+
+.header h1 {
+    color: #f3e4e4;
+}
+
+.header p {
+    color: #f3e4e4;
+}
+
+.blogfront {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.blogbtn:hover {
+    background-color: gainsboro;
+}
+
+.blogbtn {
+    font-size: 40px;
+    border-radius: 100px;
+}
+
+
+
+p.header {
+    text-decoration-line: none;
+}
+
+.box1 {
+    position: relative;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rebeccapurple;
+    height: 100px;
+    width: 200px;
+
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container img {
+    width: 60%;
+    height: auto;
+    margin-left: 13%;
+
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(232, 245, 248);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color: rgb(116, 148, 152);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #daf9fe;
+}
+
+
+
+.listbg {
+    background-color: rgb(214, 203, 193);
+}
+
+.rectangle {
+    background-color: #da93e4;
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+    position: relative;
+
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ffffff;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.recentcontainer {
+    background-color: #555;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fullbtn {
+    border-radius: 20%;
+    position: absolute;
+    /* Use absolute positioning */
+    bottom: 10px;
+    /* Adjust the distance from the bottom */
+    right: 10px;
+}
+
+.fullbtn:hover {
+    background-color: rgb(255, 131, 234);
+}
+
+.listofblogs p {
+    margin: 5px 0;
+    /* Add some margin between the paragraphs to separate them */
+}
+
+.post-container {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.listbutton {
+    font-size: 20px;
+    border-radius: 5px;
+    bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.listbutton:hover {
+    background-color: #555;
+}
+
+.box {
+    text-align: center;
+
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.wrapper {
+    margin: 70px auto;
+    padding: 20px;
+    background: #da93e4;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.wrapper h2 {
+    margin-top: 0;
+    color: #333;
+
+}
+
+.wrapper .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.wrapper .content {
+    max-height: 30%;
+    overflow: auto;
+
+}
+
+.containers {
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 20px 0;
+
+
+}
+
+form label {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.containers input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+.containers input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.headlist {
+    text-align: center;
+    font-size: 40px;
+    color: #5d6263;
+    background-color: #bec7cb;
+    padding: 40px;
+}
+
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the actual form */
+.popup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+/* Styles for the close button */
+.close-button {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+}
+
+.blogfront {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.openPopupButton:hover {
+    background-color: orange;
+}
+
+.blogbtn {
+    font-size: 40px;
+    border-radius: 100px;
+}
+
+.openPopupButton {
+    font-size: 40px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.box_pop {
+    font-size: 40px;
+    border-radius: 100px;
+}
+
+/* .createablog {
+    font-size: 20px;
+    background-color: #d3ecfc;
+    padding: 100px;
+    width: 500px;
+    align-items: center;
+
+} */
+
+.createablog {
+    font-size: 20px;
+    background-color: #d3ecfc;
+    padding: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align items to the top left */
+    position: relative;
+}
+
+.postbtn {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+form.createablog {
+    position: relative;
+}
+
+form.createablog .postbtn {
+    position: absolute;
+    bottom: 0;
+}
+
+form.createablog label,
+form.createablog input {
+    margin-bottom: 10px;
+}
+
+/* .postbtn {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+} */
+
+input[type=text] {
+    width: 300px;
+
+    background-color: white;
+    border-radius: 20px;
+    position: sticky;
+}
+
+
+.createbtn {
+    padding: 10px;
+    background: lightblue;
+    border: 1px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.createbtn:hover {
+    background-color: cadetblue;
+    font-size: 32px;
+}
+
+.column {
+    float: left;
+    width: 11%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}

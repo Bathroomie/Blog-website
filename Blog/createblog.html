@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Popup Window Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+
+    <div style="background-color: azure;">
+        <ul>
+            <li><a href=blog.html>Home</li></a>
+            <li><a href="list.html">List Blogs</li></a>
+            <li><a href="viewblog.html">View Blogs</li></a>
+            <li><a href="createblog.html">Create Blog</a></li>
+            <li><a href="editblog.html"> Edit Blog</a></li>
+            <li><a href="delete.html">Delete Blog</a></li>
+        </ul>
+    </div>
+
+    <div class="blogfront">
+        <h1> Create a Blog </h1>
+        <div class="box_pop">
+            <button class="createbtn" id="openPopupButton">Click to create</button>
+        </div>
+    </div>
+
+
+    <!-- Popup container -->
+    <div class="popup-container" id="popupContainer">
+        <!-- Popup form -->
+        <div class="popup-form">
+            <span class="close-button" id="closePopupButton">&times;</span>
+            <h2>Create a blog</h2>
+            <p>write down the title you want for your blog and the description. You can chose to add a picture or not.
+            </p>
+            <form class="createablog">
+                <label for="name">Title:</label>
+                <input type="text" id="name" required>
+                <label for="descript">Description:</label>
+                <input type="text" id="text" required>
+                <input class="postbtn" type="submit" value="Post">
+            </form>
+        </div>
+    </div>
+
+    <script src="blog.jss">
+        // Function to show the popup
+
+    </script>
+</body>
+
+</html>

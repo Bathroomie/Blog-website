@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lists of Blogs</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body style="background-color: rgb(232, 252, 250);">
+
+    <div style="background-color: azure;">
+        <ul>
+            <li><a href=blog.html>Home</li></a>
+            <li><a href="list.html">List Blogs</li></a>
+            <li><a href="viewblog.html">View Blogs</li></a>
+            <li><a href="createblog.html">Create Blog</a></li>
+            <li><a href="editblog.html">Edit Blog</a></li>
+            <li><a href="delete.html">Delete Blog</a></li>
+        </ul>
+    </div>
+    <div class="background">
+        <div class="headlist">
+            <h1>List of blogs</h1>
+        </div>
+
+        <form>
+            <h2>Please input the number of blogs you want to see</h2>
+            <input id="textinput" type="text">
+        </form>
+        <button class="listbutton" id="btns">Fetch Blog Post!</button>
+
+        <div class="listofblogs" id="blogPostsContainer">
+            <p id="title"></p>
+            <p id="userId"> </p>
+            <p id="id"></p>
+            <p id="body"></p>
+        </div>
+    </div>
+
+
+
+    <script src="scriptss.js"> </script>
+</body>
+
+</html>
